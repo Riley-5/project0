@@ -19,15 +19,13 @@
                 <div class="search_icon">
                     <img id="search_logo" src="search_icon.png"/>
                 </div>
-                    <form>
-                        <input id="search_input" type="text">
+                    <form id="search" action="https://google.com/search">
+                        <input id="search_input" type="text" name="q">
                     </form>
             </div>
             <div class="button_bar">
-                <form>
-                    <input class="button_input" type="button" value="Google Search"/>
-                    <input class="button_input" type="button" value="I'm Feeling Lucky"/>
-                </form>
+                <button form="search" class="button_input" type="submit" name="btnK">Google Search</button>
+                <button form="search" class="button_input" type="submit" name="btnI">I'm Feeling Lucky</button>
             </div>
         </div>
     </body>

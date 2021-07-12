@@ -18,14 +18,12 @@
                 <div class="search_icon">
                     <img id="search_logo" src="search_icon.png"/>
                 </div>
-                    <form>
-                        <input id="search_input" type="text"/>
+                    <form id="image_search" action="https://images.google.com/images">
+                        <input id="search_input" type="text" name="q"/>
                     </form>
             </div>
             <div class="button_bar">
-                <form>
-                    <input class="button_input" type="button" value="Search"/>
-                </form>
+                <button form="image_search" class="button_input" type="submit">Search</button>
             </div>
         </div>
     </body>
